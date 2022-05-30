@@ -16,7 +16,8 @@ const Testimonial = () => {
         autoplaySpeed: 3000,
         cssEase: "linear",
         swipeToSlide: true,
-        arrows: false,
+        arrows: true,
+        pauseOnHover: false,
         responsive: [
             {
                 breakpoint: 992,

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Influencer = () => {
     return (
-        <div>
+        <div className=" min-h-[35vh]">
             This is Influencer Page
         </div>
     );

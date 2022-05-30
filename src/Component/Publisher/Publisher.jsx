@@ -2,7 +2,7 @@ import React from 'react';
 
 const Publisher = () => {
     return (
-        <div>
+        <div className=" min-h-[35vh]">
             This is Publisher Page
         </div>
     );
