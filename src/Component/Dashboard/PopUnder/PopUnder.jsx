@@ -13,10 +13,8 @@ const PopUnder = () => {
                 </div>
                 <div className="w-1/2 flex flex-col justify-between items-start">
                     <div>
-                        <h4 className="text-2xl text-[#ED6A49] mb-6 text-left">Pop-Under</h4>
-                        <p className="text-left text-xl font-bold tracking-wider">This is one of the most popular ads. After user’s click, this
-                            ad opens landing page in behind. So, the user experience is
-                            not hampered much.</p>
+                        <h4 className="text-2xl text-[#ED6A49] mb-6 text-left uppercase">Pop-Under</h4>
+                        <p className="text-left text-xl font-bold tracking-wider">This is one of the most popular ads. After user’s click, this <br /> ad opens landing page in behind. So, the user experience is <br />   not hampered much.</p>
                     </div>
                     <Link to="/home" className="text-xl font-bold text-[#644F9C]">
                         Learn More <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

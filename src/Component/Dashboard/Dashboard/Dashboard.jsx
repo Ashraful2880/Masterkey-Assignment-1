@@ -8,6 +8,7 @@ import Skim from '../Skim/Skim';
 const Dashboard = () => {
     return (
         <div className="container mx-auto my-10">
+            <h2 className="text-3xl text-[#644F9C] uppercase mb-10">VERSATILE AD FORMATS</h2>
             <main className="px-20">
                 <div className="grid grid-cols-4 gap-x-32 mb-10">
                     <Link
