@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 const Testimonial = () => {
     const slider = React.useRef(null);
@@ -106,6 +108,12 @@ const Testimonial = () => {
                     </div>
                 </div>
             </Slider>
+            <button onClick={() => slider?.current?.slickPrev()} className="mx-8 h-14 w-14 bg-white p-3 rounded-full shadow-lg">
+                <FontAwesomeIcon icon={faAngleLeft} />
+            </button>
+            <button onClick={() => slider?.current?.slickNext()} className="mx-8 h-14 w-14 bg-white p-3 rounded-full shadow-lg">
+                <FontAwesomeIcon icon={faAngleRight} />
+            </button>
         </div>
     );
 };

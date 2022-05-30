@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../../Assets/Images/Masterkey-Transparent-Logo.png";
 
 const Header = () => {
-    const [active, setActive] = useState('signUp')
 
     return (
         <div className="container mx-auto mb-10">

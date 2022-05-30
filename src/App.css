@@ -9,3 +9,25 @@
   background-position: top;
   background-attachment: fixed;
 }
+
+.slick-dots {
+  position: absolute;
+  top: -37px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li button {
+  width: 21px !important;
+  height: 3px !important;
+  padding: 3px !important;
+  background-color: #644F9C !important;
+}
+
+.slick-dots li button:before {
+  color: transparent !important;
+}
