@@ -10,7 +10,7 @@ const Publisher = () => {
         <div className="container mx-auto my-10">
             <h2 className="text-3xl text-[#644F9C] uppercase mb-10">VERSATILE AD FORMATS</h2>
             <div className="px-20">
-                <div className="grid grid-cols-4 gap-x-32 mb-10">
+                <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-x-32 gap-x-11 mb-10">
                     <button
                         onClick={() => setActive("Pop-Under")}
                         className={`text-xl uppercase bg-[#F2F2F2] p-2 rounded-3xl mt-2 cursor-pointer hover:bg-[#ED6A49] hover:text-white ${active === "Pop-Under" && `bg-[#ED6A49] text-white`} w-full block shadow-xl duration-200`}>

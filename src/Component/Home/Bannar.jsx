@@ -33,7 +33,7 @@ const Bannar = () => {
                     </div>
                 </div>
                 <div className="relative">
-                    <img src="https://res.cloudinary.com/ashraful-islam/image/upload/v1652967874/Assesment/Bannar-4_lpzwnx.png" alt="Bannar Slider" />
+                    <img className="w-full h-[63vh]" src="https://res.cloudinary.com/ashraful-islam/image/upload/v1652967874/Assesment/Bannar-4_lpzwnx.png" alt="Bannar Slider" />
                     <div className="bg-[#00000063] h-full w-full absolute top-0 left-0"></div>
                     <div className="absolute top-[22%] left-[20%] text-left">
                         <h1 className="text-6xl font-bold text-white"> Get The Best Service </h1>
@@ -43,7 +43,7 @@ const Bannar = () => {
                     </div>
                 </div>
                 <div className="relative">
-                    <img src="https://res.cloudinary.com/ashraful-islam/image/upload/v1652967872/Assesment/Bannar-3_g9et0z.jpg" alt="Bannar Slider" />
+                    <img className="w-full h-[63vh]" src="https://res.cloudinary.com/ashraful-islam/image/upload/v1652967872/Assesment/Bannar-3_g9et0z.jpg" alt="Bannar Slider" />
                     <div className="bg-[#00000063] h-full w-full absolute top-0 left-0"></div>
                     <div className="absolute top-[22%] left-[20%] text-left">
                         <h1 className="text-6xl font-bold text-white"> Get The Best Service </h1>

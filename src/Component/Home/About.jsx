@@ -5,7 +5,7 @@ const About = () => {
         <div className="bg-[#644F9C]">
             <div className="container mx-auto">
                 <h2 className="text-3xl text-white pt-10">Title Here</h2>
-                <div className="flex justify-between items-center py-16">
+                <div className="lg:flex block justify-between items-center py-16">
                     <div className="text-white border-2 border-dashed rounded-full h-72 w-72 flex flex-col justify-center items-center">
                         <h1 className="text-5xl">1 BN+</h1>
                         <h4 className="text-2xl">Daily Impressions</h4>
