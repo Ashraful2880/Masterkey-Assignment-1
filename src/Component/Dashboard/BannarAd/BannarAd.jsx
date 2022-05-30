@@ -2,7 +2,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import banarAd from "../../../Assets/Images/advertisement.png";
+import banarAd from "../../../Assets/Images/advertisement-2.png";
 
 const BannarAd = () => {
     return (
