@@ -1,6 +1,6 @@
 import React from 'react';
 import Advertiser from '../Advertiser/Advertiser';
-import Dashboard from '../Dashboard/Dashboard/Dashboard';
+import Publisher from '../Publisher/Publisher';
 import About from './About';
 import Bannar from './Bannar';
 import Testimonial from './Testimonial';
@@ -10,9 +10,9 @@ const Home = () => {
         <div>
             <Bannar />
             <Advertiser />
+            <Publisher />
             <About />
             <Testimonial />
-            <Dashboard />
         </div>
     );
 };

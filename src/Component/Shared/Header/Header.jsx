@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../../Assets/Images/Masterkey-Transparent-Logo.png";
 
 const Header = () => {
+    const [active, setActive] = useState('signUp')
 
     return (
         <div className="container mx-auto mb-10">
@@ -61,7 +62,7 @@ const Header = () => {
                 <div className=" bg-white px-2 py-2 rounded-3xl shadow-xl">
                     <div className="flex uppercase text-md font-semibold">
                         <Link to="/login" className="px-6 py-1.5 rounded-3xl hover:bg-[#FF6F00] hover:text-white duration-200 focus:bg-[#FF6F00] focus:text-white" >Login</Link>
-                        <Link to="/signup" className="px-6 py-1.5 rounded-3xl hover:bg-[#FF6F00] duration-200 hover:text-white focus:bg-[#FF6F00] focus:text-white ">Sign Up</Link>
+                        <Link to="/signup" className="px-6 py-1.5 rounded-3xl hover:bg-[#FF6F00] duration-200 hover:text-white focus:bg-[#FF6F00] focus:text-white">Sign Up</Link>
                     </div>
                 </div>
             </nav>

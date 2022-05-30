@@ -4,7 +4,6 @@ import AdFormate from './Component/AdFormate/AdFormate';
 import Advertiser from './Component/Advertiser/Advertiser';
 import Blog from './Component/Blog/Blog';
 import ContactUs from './Component/ContactUs/ContactUs';
-import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
 import ErrorPage from './Component/ErrorPage/ErrorPage';
 import Home from './Component/Home/Home';
 import Influencer from './Component/Influencer/Influencer';
@@ -31,7 +30,6 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/login' element={<Login />} />
           <Route path='/contact' element={<ContactUs />} />
-          <Route path="/dashboard/*" element={<Dashboard />} />
         </Routes>
         <Footer />
       </BrowserRouter>
