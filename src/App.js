@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import ContactUs from './Component/ContactUs/ContactUs';
 import ErrorPage from './Component/ErrorPage/ErrorPage';
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
@@ -18,6 +19,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/register' element={<Signup />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/contact' element={<ContactUs />} />
           {/* <Route path="/dashboard/*" element={<Dashboard />} /> */}
         </Routes>
         <Footer />
