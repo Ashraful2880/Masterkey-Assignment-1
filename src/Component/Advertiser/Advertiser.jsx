@@ -4,7 +4,7 @@ import { faBullhorn, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const Advertiser = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto mb-10">
             <div>
                 <h1 className="text-4xl text-[#644F9C] mb-4">AVAILABLE FOR EVERYONE</h1>
                 <h2 className="text-2xl font-bold text-gray-700">Sub Heading</h2>
